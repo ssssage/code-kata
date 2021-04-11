@@ -1,0 +1,12 @@
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.exe
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.deps.json
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.runtimeconfig.json
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.runtimeconfig.dev.json
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.dll
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\bin\Debug\netcoreapp3.1\Harrycheckout.Console.pdb
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.AssemblyInfoInputs.cache
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.AssemblyInfo.cs
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.csproj.CoreCompileInputs.cache
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.dll
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.pdb
+C:\Users\rudph\Documents\Projects\code-kata\1st-version\Kata.Harry\Harrycheckout.Console\obj\Debug\netcoreapp3.1\Harrycheckout.Console.genruntimeconfig.cache

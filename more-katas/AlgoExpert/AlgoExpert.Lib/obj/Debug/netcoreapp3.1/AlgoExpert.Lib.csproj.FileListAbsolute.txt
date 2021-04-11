@@ -1,0 +1,8 @@
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\bin\Debug\netcoreapp3.1\AlgoExpert.Lib.deps.json
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\bin\Debug\netcoreapp3.1\AlgoExpert.Lib.dll
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\bin\Debug\netcoreapp3.1\AlgoExpert.Lib.pdb
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\obj\Debug\netcoreapp3.1\AlgoExpert.Lib.AssemblyInfoInputs.cache
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\obj\Debug\netcoreapp3.1\AlgoExpert.Lib.AssemblyInfo.cs
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\obj\Debug\netcoreapp3.1\AlgoExpert.Lib.csproj.CoreCompileInputs.cache
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\obj\Debug\netcoreapp3.1\AlgoExpert.Lib.dll
+C:\Users\rudph\Documents\Projects\code-kata\more-katas\AlgoExpert\AlgoExpert.Lib\obj\Debug\netcoreapp3.1\AlgoExpert.Lib.pdb
