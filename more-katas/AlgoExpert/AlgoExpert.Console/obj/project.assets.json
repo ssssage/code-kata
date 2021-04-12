@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
+      "projectUniqueName": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
       "projectName": "AlgoExpert.Console",
-      "projectPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
+      "projectPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
       "packagesPath": "C:\\Users\\rudph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\obj\\",
+      "outputPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rudph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj": {
-              "projectPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj"
+            "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj": {
+              "projectPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj"
             }
           }
         }

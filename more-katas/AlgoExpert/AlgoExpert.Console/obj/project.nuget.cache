@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/lBIBU2Oh8Twgm/VDx3abEjkEmqr/FhGEBmvI6lsD36wnH/o3GXxZSiAOeSJs64hsmn9BfrMtuU10I8kJJj9Q==",
+  "dgSpecHash": "ZE2xsuxl95AAHHh6CdahSqzVPnlieriy8VhF1Ps5WSf99WNiSk++kNM8faxsdTDz30jSYMhWODOquAVHUDM42A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
+  "projectFilePath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Console\\AlgoExpert.Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

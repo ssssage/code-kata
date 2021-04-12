@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kYc7MtNYINSCwyrDHx1I9KusWr7uvdzhZkABvRvsthDxkZnjW3oS90S++FctszesqhrbnPga751Kq8z2WM769A==",
+  "dgSpecHash": "H/YubFQsHwS6JN/s2O6CQ1+YtDnvxA8nxQOp7jvvppjo6oeP/4KlsY4PWJtkEPU0aAevY172s1lkhzfvuKXK4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib.Tests\\AlgoExpert.Lib.Tests.csproj",
+  "projectFilePath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib.Tests\\AlgoExpert.Lib.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rudph\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\rudph\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
