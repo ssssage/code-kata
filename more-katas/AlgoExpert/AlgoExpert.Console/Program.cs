@@ -8,19 +8,26 @@ namespace AlgoExpert.Console
     {
         static void Main(string[] args)
         {
-            int[,] input = {
-            {1, 0, 0, 1, 0},
-            {1, 0, 1, 0, 0},
-            {0, 0, 1, 0, 1},
-            {1, 0, 1, 0, 1},
-            {1, 0, 1, 1, 0},
+            string[,] codes = new string[,]
+        {
+            {"AA", "BB"},
+            {"CC", "DD"}
         };
-            //int[] expected = { 1, 2, 2, 2, 5 };
-            List<int> output = Rivers.RiverSizes(input);
-            output.Sort();
-            System.Console.WriteLine($"[{string.Join(", ", output)}]");
-            //System.Console.WriteLine("[{0}]", string.Join(", ", output));
-        
+
+            // Get the upper bound.
+            // ... Use for-loop over rows.
+            int myvalue = codes.GetUpperBound(0);
+            for (int i = 0; i <= myvalue; i++)
+            {
+                string s1 = codes[i, 0];
+                string s2 = codes[i, 1];
+                System.Console.WriteLine("{0}, {1}", s1, s2);
+            }
+
+          
+
+            System.Console.WriteLine("Index: {0}", myvalue);
+
         }
 
     }
