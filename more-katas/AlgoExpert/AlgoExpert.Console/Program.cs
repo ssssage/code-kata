@@ -18,10 +18,9 @@ namespace AlgoExpert.Console
             //int[] expected = { 1, 2, 2, 2, 5 };
             List<int> output = Rivers.RiverSizes(input);
             output.Sort();
-            foreach (var item in output)
-            {
-                System.Console.WriteLine(($"{item}"));
-            }
+            System.Console.WriteLine($"[{string.Join(", ", output)}]");
+            //System.Console.WriteLine("[{0}]", string.Join(", ", output));
+        
         }
 
     }

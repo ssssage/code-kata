@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\rudph\\.nuget\\packages\\": {}
+    "C:\\Users\\ElixirHand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj",
+      "projectUniqueName": "C:\\Users\\ElixirHand\\Documents\\Projects\\Code-Katas\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj",
       "projectName": "AlgoExpert.Lib",
-      "projectPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj",
-      "packagesPath": "C:\\Users\\rudph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rudph\\Documents\\Projects\\code-kata\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\obj\\",
+      "projectPath": "C:\\Users\\ElixirHand\\Documents\\Projects\\Code-Katas\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\AlgoExpert.Lib.csproj",
+      "packagesPath": "C:\\Users\\ElixirHand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ElixirHand\\Documents\\Projects\\Code-Katas\\code-kata\\more-katas\\AlgoExpert\\AlgoExpert.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rudph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ElixirHand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
