@@ -8,20 +8,15 @@ namespace AlgoExpert.Console
     {
         static void Main(string[] args)
         {
-            int[,] input = {
-            {1, 0, 0, 1, 0},
-            {1, 0, 1, 0, 0},
-            {0, 0, 1, 0, 1},
-            {1, 0, 1, 0, 1},
-            {1, 0, 1, 1, 0},
-        };
-            //int[] expected = { 1, 2, 2, 2, 5 };
-            List<int> output = Rivers.RiverSizes(input);
-            output.Sort();
-            foreach (var item in output)
-            {
-                System.Console.WriteLine(($"{item}"));
-            }
+            //MaxProfitWithKTransactions(int[] prices, int k)
+            int[] stockPrices = { 5, 11, 3, 50, 60, 90 };
+            int transactionLimit = 2;
+            var profit = Stocking.MaxProfitWithKTransactions(stockPrices, transactionLimit);
+            System.Console.WriteLine(profit);
+            System.Console.WriteLine("-------------------");
+
+            var profits = Stocks.MaxProfitWithKTransactions(stockPrices, transactionLimit);
+            System.Console.WriteLine(profits);
         }
 
     }
