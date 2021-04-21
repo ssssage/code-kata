@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\rudph\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\rudph\\.nuget\\packages"
+      "C:\\Users\\ElixirHand\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ElixirHand\\.nuget\\packages"
     ]
   }
 }
