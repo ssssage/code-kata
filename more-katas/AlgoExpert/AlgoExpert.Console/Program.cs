@@ -1,6 +1,9 @@
 ﻿using AlgoExpert.Lib;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.IO;
+using System.Linq;
 
 namespace AlgoExpert.Console
 {
@@ -8,16 +11,46 @@ namespace AlgoExpert.Console
     {
         static void Main(string[] args)
         {
-            //MaxProfitWithKTransactions(int[] prices, int k)
-            int[] stockPrices = { 5, 11, 3, 50, 60, 90 };
-            int transactionLimit = 2;
-            var profit = Stocking.MaxProfitWithKTransactions(stockPrices, transactionLimit);
-            System.Console.WriteLine(profit);
-            System.Console.WriteLine("-------------------");
+            Employee.PrintEmployee();
 
-            var profits = Stocks.MaxProfitWithKTransactions(stockPrices, transactionLimit);
-            System.Console.WriteLine(profits);
+
+            string path = @"C:\Windows";
+            ShowLargeFilesWithoutLinq(path);
+            ShowLargeFilesWithLinq(path);
         }
 
+        private static void ShowLargeFilesWithLinq(string path)
+        {
+            var query = from file in new DirectoryInfo(path).GetFiles()
+                        orderby file.Length descending
+                        select file;
+
+            foreach (var file in query.Take(5))
+            {
+                System.Console.WriteLine($"{file.Name,-20} : {file.Length,10}");
+            }
+        }
+
+        private static void ShowLargeFilesWithoutLinq(string path)
+        {
+            DirectoryInfo di = new DirectoryInfo(path);
+
+            //Get All csv Files  
+            FileInfo[] getAllCSVFiles = di.GetFiles();
+            Array.Sort(getAllCSVFiles, new FileInfoComparer());
+            for (int i = 0; i < 5; i++)
+            {
+                FileInfo file = getAllCSVFiles[i];
+                System.Console.WriteLine($"{file.Name,-20} : {file.Length,10}");
+            }
+        }
+    }
+
+    public class FileInfoComparer : IComparer<FileInfo>
+    {
+        public int Compare(FileInfo x, FileInfo y)
+        {
+            return y.Length.CompareTo(x.Length);
+        }
     }
 }
