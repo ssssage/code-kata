@@ -63,7 +63,6 @@ namespace AlgoExpert.Console
             }
         }
 
-
         public Country ReadCountryFromPopulationCSV(string csvData)
         {
             string[] parts = csvData.Split(new char[] { ',' });
@@ -75,6 +74,79 @@ namespace AlgoExpert.Console
 
             return new Country(name, code, region, population);
         }
+
+        public List<Country> ReadAllCountries()
+        {
+            List<Country> countries = new List<Country>();
+
+            using (StreamReader sr = new StreamReader(_csvFilePath))
+            {
+                // read header line
+                sr.ReadLine();
+
+                string csvLine;
+                while ((csvLine = sr.ReadLine()) != null)
+                {
+                    countries.Add(ReadCountryFromCsvLine(csvLine));
+                }
+            }
+
+            return countries;
+        }
+
+        public Country ReadCountryFromCsvLine(string csvLine)
+        {
+            string[] parts = csvLine.Split(',');
+            string name;
+            string code;
+            string region;
+            string popText;
+            switch (parts.Length)
+            {
+                case 4:
+                    name = parts[0];
+                    code = parts[1];
+                    region = parts[2];
+                    popText = parts[3];
+                    break;
+                case 5:
+                    name = parts[0] + ", " + parts[1];
+                    name = name.Replace("\"", null).Trim();
+                    code = parts[2];
+                    region = parts[3];
+                    popText = parts[4];
+                    break;
+                default:
+                    throw new Exception($"Can't parse country from csvLine: {csvLine}");
+            }
+
+            // TryParse leaves population=0 if can't parse
+            int.TryParse(popText, out int population);
+            return new Country(name, code, region, population);
+        }
+
+        public static void PrintLists()
+        {
+            string filePath = @"C:\Population.csv";
+            CSVReader reader = new CSVReader(filePath);
+
+            List<Country> countries = reader.ReadAllCountries();
+
+            // This is the code that inserts and then subsequently removes Lilliput.
+            // Comment out the RemoveAt to see the list with Lilliput in it.
+            Country lilliput = new Country("Lilliput", "LIL", "Somewhere", 2_000_000);
+            int lilliputIndex = countries.FindIndex(x => x.Population < 2_000_000);
+            countries.Insert(lilliputIndex, lilliput);
+            countries.RemoveAt(lilliputIndex);
+
+            foreach (Country country in countries)
+            {
+                System.Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: {country.Name}");
+            }
+            System.Console.WriteLine($"{countries.Count} countries");
+        }
+
+        
 
     }
 }
