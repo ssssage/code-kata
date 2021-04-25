@@ -43,12 +43,12 @@ namespace AlgoExpert.Console
 
             var sortedCountries = from country in countries
                                   orderby country.Name
-                                  where country.Name.StartsWith('P')
+                                  where country.Population > 1000000000
                                   select country;
             
             foreach (Country country in sortedCountries)
             {
-                System.Console.WriteLine($"{country.Name}: {country.Code}: {country.Region}: {country.Population}");
+                System.Console.WriteLine($"{country.Name}: {country.Code}: {country.Region}: {PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}");
                
             }
         }

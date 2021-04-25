@@ -11,9 +11,14 @@ namespace AlgoExpert.Console
         {
             CSVListReader.Print();
             //CSVReader.Print();
-            System.Console.ReadLine();
 
+            //var high = PopulationFormatter.GetHighestPowerofTen(35);
+            //System.Console.WriteLine(high);
+
+           
         }
+
+        
 
     }
 
