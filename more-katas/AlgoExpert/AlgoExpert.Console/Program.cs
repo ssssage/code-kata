@@ -1,15 +1,20 @@
 ﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 namespace AlgoExpert.Console
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            CSVReader.PrintLists();
+            CSVListReader.Print();
+            //CSVReader.Print();
+            System.Console.ReadLine();
 
         }
 
-        
     }
 
    
