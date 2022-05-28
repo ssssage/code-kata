@@ -43,5 +43,17 @@ namespace KadaTests
             Assert.Equal(expectedResult, result);
 
         }
+
+        [Theory]
+        [InlineData("1\n2,3", 6)]
+        public void ReturnsSumWithGivenNumbers(string numbers, int result)
+        {
+            var calculator = new StringCalculator();
+
+            var expectedResult = calculator.Add(numbers);
+
+            Assert.Equal(expectedResult, result);
+
+        }
     }
 }
