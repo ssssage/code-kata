@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.HarryPotter", "Kata.HarryPotter\Kata.HarryPotter.csproj", "{A3B80EE7-EAFF-48ED-BFFC-EE9D1BC29B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.HarryPotter.Test", "Kata.HarryPotter.Test\Kata.HarryPotter.Test.csproj", "{571006AB-183D-474E-B5B1-29F9BCC26CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B80EE7-EAFF-48ED-BFFC-EE9D1BC29B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B80EE7-EAFF-48ED-BFFC-EE9D1BC29B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B80EE7-EAFF-48ED-BFFC-EE9D1BC29B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B80EE7-EAFF-48ED-BFFC-EE9D1BC29B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571006AB-183D-474E-B5B1-29F9BCC26CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571006AB-183D-474E-B5B1-29F9BCC26CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571006AB-183D-474E-B5B1-29F9BCC26CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571006AB-183D-474E-B5B1-29F9BCC26CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
