@@ -1,0 +1,16 @@
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.exe
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.deps.json
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.runtimeconfig.json
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.runtimeconfig.dev.json
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.dll
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\ref\Codam.dll
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\bin\Debug\net5.0\Codam.pdb
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.csproj.AssemblyReference.cache
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.AssemblyInfoInputs.cache
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.AssemblyInfo.cs
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.csproj.CoreCompileInputs.cache
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.dll
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\ref\Codam.dll
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.pdb
+C:\Users\ElixirHandTechnologies\Projects\code-kata\KadaTests\Codam\obj\Debug\net5.0\Codam.genruntimeconfig.cache
