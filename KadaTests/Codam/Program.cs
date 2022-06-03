@@ -9,6 +9,7 @@ namespace Codam
         static void Main(string[] args)
         {
 
+
             //var inputData = new List<InitialLeaderBoardResult>
 
             //{
@@ -19,79 +20,141 @@ namespace Codam
             //};
 
 
-            var inputData = new List<InitialLeaderBoardResult>
+            //var inputData = new List<InitialLeaderBoardResult>
 
-            {
-                new InitialLeaderBoardResult { Name = "Gango", Score = 13 },
-                new InitialLeaderBoardResult { Name = "Mango", Score = 9 },
-                new InitialLeaderBoardResult { Name = "Sango", Score = 9 },
-                new InitialLeaderBoardResult { Name = "Rango", Score = 15 },
-                new InitialLeaderBoardResult { Name = "Jango", Score = 5 }
-            };
+            //{
+            //    new InitialLeaderBoardResult { Name = "Gango", Score = 13 },
+            //    new InitialLeaderBoardResult { Name = "Mango", Score = 9 },
+            //    new InitialLeaderBoardResult { Name = "Sango", Score = 9 },
+            //    new InitialLeaderBoardResult { Name = "Rango", Score = 15 },
+            //    new InitialLeaderBoardResult { Name = "Jango", Score = 5 }
+            //};
 
-            LeaderBoardService leaderBoardService = new LeaderBoardService();
-
-
-
-            foreach (var item in leaderBoardService.GenerateFinalLeaderBoardResult(inputData))
-            {
-                Console.WriteLine($"Name: {item.InitialLeaderBoardResult.Name}, Score: {item.InitialLeaderBoardResult.Score}, Rank:{item.Rank}");
-            }
+            //LeaderBoardService leaderBoardService = new LeaderBoardService();
 
 
+            //foreach (var item in leaderBoardService.GenerateFinalLeaderBoardResult(inputData))
+            //{
+            //    Console.WriteLine($"Name: {item.InitialLeaderBoardResult.Name}, Score: {item.InitialLeaderBoardResult.Score}, Rank:{item.Rank}");
+            //}
+
+            
         }
+
+       
     }
 
-   
-    public class InitialLeaderBoardResult
+
+    //public class InitialLeaderBoardResult
+
+    //{
+    //    public string Name { get; set; }
+    //    public int Score { get; set; }
+    //}
+    public class InitialLeaderBoardResult<T> where T : IComparable<T>
 
     {
         public string Name { get; set; }
-        public int Score { get; set; }
+        public T Score { get; set; }
     }
 
-    public class FinalLeaderBoardResult
+    //public class FinalLeaderBoardResult
 
+    //{
+    //    public InitialLeaderBoardResult InitialLeaderBoardResult { get; set; }
+    //    public int Rank { get; set; }
+    //}
+
+    public class FinalLeaderBoardResult<T> where T : IComparable<T>
     {
-        public InitialLeaderBoardResult InitialLeaderBoardResult { get; set; }
+        public InitialLeaderBoardResult<T> InitialLeaderBoardResult { get; set; }
         public int Rank { get; set; }
     }
 
+    //public class LeaderBoardService
+
+    //{
+    //    public IEnumerable<FinalLeaderBoardResult> GenerateFinalLeaderBoardResult(List<InitialLeaderBoardResult> initialLeaderBoardResult)
+    //    {
+    //        //return initialLeaderBoardResult
+    //        //  .OrderByDescending(initialLeaderBoardResult => initialLeaderBoardResult.Score)
+    //        //  .Select((initialLeaderBoardResult, index) => new FinalLeaderBoardResult { InitialLeaderBoardResult = initialLeaderBoardResult, Rank = index + 1 });
+
+    //        var sortedInitialLeaderBoardResult = initialLeaderBoardResult.OrderByDescending(initialLeaderBoardResult => initialLeaderBoardResult.Score);
+
+    //        var finalBoardResult = new List<FinalLeaderBoardResult>();
+
+    //        int MoveNext = 0;
+
+    //        int? lastScore = null;
+
+    //        int lastRank = 0;
+
+    //        foreach (var boardResult in sortedInitialLeaderBoardResult)
+    //        {
+    //            MoveNext++;
+
+    //            var rank = boardResult.Score != lastScore ? MoveNext : lastRank;
+
+    //            var entry = new FinalLeaderBoardResult { InitialLeaderBoardResult = boardResult, Rank = rank };
+
+    //            finalBoardResult.Add(entry);
+
+    //            lastScore = boardResult.Score;
+    //            lastRank = rank;
+    //        }
+    //        return finalBoardResult;
+
+    //    }
+    //}
+
+    
+   
     public class LeaderBoardService
-
     {
-        public IEnumerable<FinalLeaderBoardResult> GenerateFinalLeaderBoardResult(List<InitialLeaderBoardResult> initialLeaderBoardResult)
-        {
-            //return initialLeaderBoardResult
-            //  .OrderByDescending(initialLeaderBoardResult => initialLeaderBoardResult.Score)
-            //  .Select((initialLeaderBoardResult, index) => new FinalLeaderBoardResult { InitialLeaderBoardResult = initialLeaderBoardResult, Rank = index + 1 });
+            private bool IsLowScoreBest { get; set; }
 
-            var sortedInitialLeaderBoardResult = initialLeaderBoardResult.OrderByDescending(initialLeaderBoardResult => initialLeaderBoardResult.Score);
-           
-            var finalResult = new List<FinalLeaderBoardResult>();
+            private LeaderBoardService() { }
 
-            int MoveNext = 0;
-
-            int? lastScore = null;
-
-            int lastRank = 0;
-
-            foreach (var result in sortedInitialLeaderBoardResult)
+            public static LeaderBoardService ForLowScoreBest()
             {
-                MoveNext++;
-
-                var rank = result.Score != lastScore ? MoveNext : lastRank;
-
-                var entry = new FinalLeaderBoardResult { InitialLeaderBoardResult = result, Rank = rank };
-
-                finalResult.Add(entry);
-
-                lastScore = result.Score;
-                lastRank = rank;
+                return new LeaderBoardService { IsLowScoreBest = true };
             }
-            return finalResult;
 
+            public static LeaderBoardService ForHighScoreBest()
+            {
+                return new LeaderBoardService { IsLowScoreBest = false };
+            }
+
+            public IEnumerable<FinalLeaderBoardResult<T>> GenerateLeaderboarEntries<T>(List<InitialLeaderBoardResult<T>> results) where T : IComparable<T>
+            {
+                var sortedResults = SortResults(results);
+
+                var entries = new List<FinalLeaderBoardResult<T>>();
+
+                int count = 0;
+                T previousScore = default;
+                int previousRank = 0;
+
+                foreach (var result in sortedResults)
+                {
+                    count++;
+
+                    var rank = previousScore is null || !result.Score.Equals(previousScore) ? count : previousRank;
+                    var entry = new FinalLeaderBoardResult<T> { InitialLeaderBoardResult = result, Rank = rank };
+                    entries.Add(entry);
+
+                    previousScore = result.Score;
+                    previousRank = rank;
+                }
+
+                return entries;
+            }
+
+            private IOrderedEnumerable<InitialLeaderBoardResult<T>> SortResults<T>(List<InitialLeaderBoardResult<T>> results) where T : IComparable<T>
+            {
+                return IsLowScoreBest ? results.OrderBy(result => result.Score) : results.OrderByDescending(result => result.Score);
+            }
         }
-    }
-
+    
 }

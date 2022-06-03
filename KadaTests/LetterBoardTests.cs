@@ -71,6 +71,39 @@ namespace KadaTests
 			actual.Should().BeEquivalentTo(expected);
 
 		}
+
+		[Fact]
+		public void LowScoreWithDuplicateTest()
+		{
+			var service = new LeaderBoardService();
+
+			var inputData = new List<InitialLeaderBoardResult>
+
+			{
+				new InitialLeaderBoardResult { Name = "Gango", Score = 78 },
+				new InitialLeaderBoardResult { Name = "Mango", Score = 88 },
+				new InitialLeaderBoardResult { Name = "Sango", Score = 88 },
+				new InitialLeaderBoardResult { Name = "Rango", Score = 68 },
+				new InitialLeaderBoardResult { Name = "Jango", Score = 125 }
+			};
+
+
+			var actual = service.GenerateFinalLeaderBoardResult(inputData);
+
+			var expected = new List<FinalLeaderBoardResult>
+			{
+			  new FinalLeaderBoardResult { InitialLeaderBoardResult = new InitialLeaderBoardResult  { Name = "Rango", Score = 68 }, Rank = 1  },
+			  new FinalLeaderBoardResult { InitialLeaderBoardResult = new InitialLeaderBoardResult  { Name = "Gango", Score = 78 }, Rank = 2  },
+			  new FinalLeaderBoardResult { InitialLeaderBoardResult = new InitialLeaderBoardResult  { Name = "Mango", Score = 88 }, Rank = 3  },
+			  new FinalLeaderBoardResult { InitialLeaderBoardResult = new InitialLeaderBoardResult  { Name = "Sango", Score = 88 }, Rank = 3   },
+			  new FinalLeaderBoardResult { InitialLeaderBoardResult = new InitialLeaderBoardResult  { Name = "Jango", Score = 125 }, Rank = 5   }
+
+			};
+
+
+			actual.Should().BeEquivalentTo(expected);
+
+		}
 	}
 
 		public class InitialLeaderBoardResult
@@ -90,6 +123,7 @@ namespace KadaTests
 		public class LeaderBoardService
 		
 	    {
+		
 			public IEnumerable<FinalLeaderBoardResult> GenerateFinalLeaderBoardResult(List<InitialLeaderBoardResult> initialLeaderBoardResult)
 			{
 			  return initialLeaderBoardResult
