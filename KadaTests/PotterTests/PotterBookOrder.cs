@@ -6,7 +6,7 @@ namespace PotterTests
 
     public class PotterBookOrder
     {
-        int SingleBookPrice = 8;
+        decimal SingleBookPrice = 8.00M;
 
         public List<Book> Books = new List<Book>();
 
@@ -14,7 +14,7 @@ namespace PotterTests
 
         public int GetTotalAmountInPounds()
         {
-            return Books.Count * SingleBookPrice;   
+            return (int)(Books.Count * SingleBookPrice);   
         }
 
         public void AddBook(Book book)

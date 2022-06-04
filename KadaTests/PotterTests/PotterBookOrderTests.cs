@@ -65,7 +65,16 @@ namespace PotterTests
         }
 
 
-        private void AssertTotalAmount(int value)
+        [Test]
+        public void Cost_Of_Different_Two_Books_In_The_Basket_Test()
+        {
+            order.AddBook(new Book { ISBN = 4 });
+            order.AddBook(new Book { ISBN = 5 });
+            AssertTotalAmount(15.2M);
+        }
+
+
+        private void AssertTotalAmount(decimal value)
         {
             int actualAmount = order.GetTotalAmountInPounds();
 

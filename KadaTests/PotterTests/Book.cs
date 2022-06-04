@@ -2,7 +2,7 @@
 {
     public class Book
     {
-        public int ISBN { get; internal set; }
+        public decimal ISBN { get; internal set; }
 
     }
 
