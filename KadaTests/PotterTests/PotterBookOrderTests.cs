@@ -17,10 +17,8 @@ namespace PotterTests
         [Test]
         public void No_Book_In_The_Basket_Cost_Nothing_Test()
         {
-             
-            int actualAmount = order.GetTotalAmountInPounds();
-
-            Assert.AreEqual(actualAmount, 0);
+            int value = 0;
+            CalculateAmount(value);
         }
 
         [Test]
@@ -30,5 +28,14 @@ namespace PotterTests
 
            
         }
+
+
+        private void CalculateAmount(int value)
+        {
+            int actualAmount = order.GetTotalAmountInPounds();
+
+            Assert.AreEqual(actualAmount, value);
+        }
+
     }
 }
