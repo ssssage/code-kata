@@ -1,27 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PotterTests
 {
+
     public class PotterBookOrder
     {
-       internal int GetTotalAmountInPounds()
+       
+
+        private Book _book;
+
+        public int GetTotalAmountInPounds()
         {
-            
-                return 0;
+            return _book == null ? 0 : 8;    
         }
 
-        internal void AddBook(PotterBook book)
+        public void AddBook(Book book)
         {
+            this._book = book;
             
         }
     }
-    enum PotterBook
-    {
-        First,
-        Second,
-        Third,
-        Fourth,
-        Fifth
-    }
+
 
 }
