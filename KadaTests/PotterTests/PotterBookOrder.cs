@@ -6,19 +6,20 @@ namespace PotterTests
 
     public class PotterBookOrder
     {
-       
+        int SingleBookPrice = 8;
+
+        public List<Book> Books = new List<Book>();
 
         private Book _book;
 
         public int GetTotalAmountInPounds()
         {
-            return _book == null ? 0 : 8;    
+            return Books.Count * SingleBookPrice;   
         }
 
         public void AddBook(Book book)
         {
-            this._book = book;
-            
+          this.Books.Add(_book);
         }
     }
 
