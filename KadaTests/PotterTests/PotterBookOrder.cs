@@ -1,25 +1,40 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PotterTests
 {
 
     public class PotterBookOrder
     {
-        decimal SingleBookPrice = 8.00M;
+        int SingleBookPrice = 800;
 
-        public List<Book> Books = new List<Book>();
+        private List<Book> Books = new List<Book>();
 
-        private Book _book;
-
-        public int GetTotalAmountInPounds()
+        public int GetTotalAmountInPence()
         {
-            return (int)(Books.Count * SingleBookPrice);   
+            int numberOfBooks = GetNumberOfBooks();
+            int numberOfDistinctBooks = (int)GetNumberOfDistinctBooks();
+
+            return (int)(numberOfDistinctBooks == 2 ? numberOfBooks * SingleBookPrice * 0.95M : numberOfBooks * SingleBookPrice);
+
+        }
+
+        public decimal GetNumberOfDistinctBooks()
+        {
+            HashSet<Book> DifferentBooks = new HashSet<Book>(Books);
+            return DifferentBooks.Count();
+        }
+
+        public int GetNumberOfBooks()
+        {
+          return Books.Count();
         }
 
         public void AddBook(Book book)
         {
-          this.Books.Add(_book);
+            Books.Add(book);
         }
     }
 

@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Compile Remove="HarryPotterBasketTests.cs" />
+    <Compile Remove="PotterBookOrder.cs" />
+    <Compile Remove="PotterBookOrderTests.cs" />
   </ItemGroup>
 
   <ItemGroup>
