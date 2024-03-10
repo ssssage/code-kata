@@ -25,7 +25,7 @@ Your task is to write a piece of code that calculates the price of any conceivab
 | 3	     | 3	       | 21.60 EUR |
 | 4	     | 4	       | 25.60 EUR |
 | 5	     | 5	       | 30.00 EUR |
-| ------ | -------- | --------- |
+
 | Total		           | 51.20 EUR |
 
  The answer should be 51.20 EUR. Here’s how the calculation works:
