@@ -1,5 +1,5 @@
 # Harry Potter Kata 
-The **Harry Potter** Kata is a coding exercise that provides an opportunity to practice object-oriented programming (OOP) principles and clever optimization algorithms. Let’s delve into the details:
+The <strong>Harry Potter</strong> Kata is a coding exercise that provides an opportunity to practice object-oriented programming (OOP) principles and clever optimization algorithms. Let’s delve into the details:
 
 # Problem Description
 A fictional bookshop offers five different Harry Potter books. To boost sales, they’ve introduced a discount system. Here are the rules:
