@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunKatas.Console", "FunKatasSolution\FunKatas.Console\FunKatas.Console.csproj", "{25C35225-8BDD-4FB2-B6BC-938DBC22C809}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunKatas.Libraries", "FunKatasSolution\FunKatas.Libraries\FunKatas.Libraries.csproj", "{2A535F23-1264-429C-9094-ADEFB92E973A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunKatas.Tests", "FunKatasSolution\FunKatas.Tests\FunKatas.Tests.csproj", "{393D816B-AA0B-4B25-ACE3-F30262A1DF7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C35225-8BDD-4FB2-B6BC-938DBC22C809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C35225-8BDD-4FB2-B6BC-938DBC22C809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C35225-8BDD-4FB2-B6BC-938DBC22C809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C35225-8BDD-4FB2-B6BC-938DBC22C809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A535F23-1264-429C-9094-ADEFB92E973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A535F23-1264-429C-9094-ADEFB92E973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A535F23-1264-429C-9094-ADEFB92E973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A535F23-1264-429C-9094-ADEFB92E973A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393D816B-AA0B-4B25-ACE3-F30262A1DF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393D816B-AA0B-4B25-ACE3-F30262A1DF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393D816B-AA0B-4B25-ACE3-F30262A1DF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393D816B-AA0B-4B25-ACE3-F30262A1DF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16373D27-8607-4656-9305-D2A1685A2F29}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kalilinuxcode.visualstudio.com/
+		SccProjectUniqueName0 = FunKatasSolution\\FunKatas.Libraries\\FunKatas.Libraries.csproj
+		SccProjectName0 = $/FunKatas/FunKatasSolution/FunKatas.Libraries
+		SccAuxPath0 = https://kalilinuxcode.visualstudio.com
+		SccLocalPath0 = FunKatasSolution\\FunKatas.Libraries
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = FunKatasSolution\\FunKatas.Tests\\FunKatas.Tests.csproj
+		SccProjectName1 = $/FunKatas/FunKatasSolution/FunKatas.Tests
+		SccAuxPath1 = https://kalilinuxcode.visualstudio.com
+		SccLocalPath1 = FunKatasSolution\\FunKatas.Tests
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
