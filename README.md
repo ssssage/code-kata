@@ -18,6 +18,7 @@ Your task is to write a piece of code that calculates the price of any conceivab
 -	2 copies of the Book III
 -	1 copy of the Book IV
 -	1 copy of the Book V
+  
 | Books	 | Quantity	| Price     |
 | ------ | -------- | --------- |
 | 1	     | 1	       | 08.00 EUR |
