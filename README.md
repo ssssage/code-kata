@@ -1,15 +1,15 @@
 # Harry Potter Kata 
-The Harry Potter Kata is a coding exercise that provides an opportunity to practice object-oriented programming (OOP) principles and clever optimization algorithms. Let’s delve into the details:
+The **Harry Potter** Kata is a coding exercise that provides an opportunity to practice object-oriented programming (OOP) principles and clever optimization algorithms. Let’s delve into the details:
 
 # Problem Description
 A fictional bookshop offers five different Harry Potter books. To boost sales, they’ve introduced a discount system. Here are the rules:
 1.	Base Price: Each copy of any Harry Potter book costs 8 EUR.
 2.	Discounts:
-o	If you buy two different books, you get a 5% discount on those two books.
-o	If you buy three different books, you get a 10% discount.
-o	If you buy four different books, you get a 20% discount.
-o	If you go all out and buy all five books, you get a whopping 25% discount.
-o	Note that if you buy, say, four books, of which three are different titles, you get a 10% discount on the three that form part of a set, but the fourth book still costs 8 EUR.
+*	If you buy two different books, you get a 5% discount on those two books.
+*	If you buy three different books, you get a 10% discount.
+*	If you buy four different books, you get a 20% discount.
+*	If you go all out and buy all five books, you get a whopping 25% discount.
+*	Note that if you buy, say, four books, of which three are different titles, you get a 10% discount on the three that form part of a set, but the fourth book still costs 8 EUR.
 
 # Mission
 Your task is to write a piece of code that calculates the price of any conceivable shopping basket containing only Harry Potter books, giving the maximum possible discount. For example, consider this basket:
