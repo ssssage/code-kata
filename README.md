@@ -52,14 +52,16 @@ For example, the final price for the given basket is:
     *	You’ll explore strategies to group books into sets that minimize the total cost.
     *	This mirrors real-world scenarios where optimizing algorithms is crucial for performance.
 
+# Problem Decomposition:
+    * Breaking down the problem into smaller components (e.g., calculating discounts, managing book sets) is essential.
+    *	In real-world projects, understanding how to decompose complex problems leads to better code organization.
+    
 # Test-Driven Development (TDD):
     *	The provided test cases demonstrate TDD principles.
     *	You’ll write tests before implementing the solution, ensuring correctness and maintainability.
     *	TDD is a valuable skill in professional software development.
 
-# Problem Decomposition:
-    * Breaking down the problem into smaller components (e.g., calculating discounts, managing book sets) is essential.
-    *	In real-world projects, understanding how to decompose complex problems leads to better code organization.
+
 
 # Handling Business Rules:
     *	The Kata simulates business rules (discounts based on book combinations).
