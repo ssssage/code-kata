@@ -1,4 +1,4 @@
- # Harry Potter Kata 
+# Harry Potter Kata 
 The Harry Potter Kata is a coding exercise that provides an opportunity to practice object-oriented programming (OOP) principles and clever optimization algorithms. Let’s delve into the details:
 
 # Problem Description
@@ -18,13 +18,15 @@ Your task is to write a piece of code that calculates the price of any conceivab
 •	2 copies of the Book III
 •	1 copy of the Book IV
 •	1 copy of the Book V
-|Books	|Quantity	|Price
-|1	     |1	      |8.00 EUR
-|2	     |2	      |15.20 EUR
-|3	     |3	      |21.60 EUR
-|4	     |4	      |25.60 EUR
-|5	     |5	      |30.00 EUR
-|Total		        |51.20 EUR
+| Books	 | Quantity	| Price     |
+| ------ | -------- | --------- |
+| 1	     | 1	       | 08.00 EUR |
+| 2	     | 2	       | 15.20 EUR |
+| 3	     | 3	       | 21.60 EUR |
+| 4	     | 4	       | 25.60 EUR |
+| 5	     | 5	       | 30.00 EUR |
+| ------ | -------- | --------- |
+| Total		           | 51.20 EUR |
 
  The answer should be 51.20 EUR. Here’s how the calculation works:
 
