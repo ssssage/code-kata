@@ -31,7 +31,7 @@ Your task is to write a piece of code that calculates the price of any conceivab
 
  The answer should be 51.20 EUR. Here’s how the calculation works:
 
-# **Complete Solutions available at** [a link](https://github.com/ssssage/code-kata/tree/master/4th-version)**
+# **Complete Solutions available at** [HERE](https://github.com/ssssage/code-kata/tree/master/4th-version)
 
 # Formula
 To calculate the price, follow this formula:
