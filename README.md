@@ -41,7 +41,7 @@ For example, the final price for the given basket is:
 - 2 sets of 4 different books: 2 * (4 * 8 * 0.8) = 51.20 EUR
 
 
-The Harry Potter Code Kata is a delightful exercise that not only hones your coding skills but also provides valuable insights into real-world problem-solving. Let’s explore its usefulness and how it relates to C# .NET jobs
+**The Harry Potter Code Kata** is a delightful exercise that not only hones your coding skills but also provides valuable insights into real-world problem-solving. Let’s explore its usefulness and how it relates to C# .NET jobs
 
 # Object-Oriented Programming (OOP) Practice:
     *	The Kata encourages you to model the problem using classes and objects (such as Book and Basket).
@@ -57,31 +57,32 @@ The Harry Potter Code Kata is a delightful exercise that not only hones your cod
     *	You’ll write tests before implementing the solution, ensuring correctness and maintainability.
     *	TDD is a valuable skill in professional software development.
 
-4.	# Problem Decomposition:
-    o Breaking down the problem into smaller components (e.g., calculating discounts, managing book sets) is essential.
-    o	In real-world projects, understanding how to decompose complex problems leads to better code organization.
+# Problem Decomposition:
+    * Breaking down the problem into smaller components (e.g., calculating discounts, managing book sets) is essential.
+    *	In real-world projects, understanding how to decompose complex problems leads to better code organization.
 
-5.	# Handling Business Rules:
-    o	The Kata simulates business rules (discounts based on book combinations).
-    o	In professional projects, you’ll encounter similar scenarios (e.g., pricing rules, promotions).
-    o	Learning to translate business requirements into code is crucial.
+# Handling Business Rules:
+    *	The Kata simulates business rules (discounts based on book combinations).
+    *	In professional projects, you’ll encounter similar scenarios (e.g., pricing rules, promotions).
+    *	Learning to translate business requirements into code is crucial.
 
-6.	# Unit Testing and Assertions:
-    o	The provided test cases validate correctness.
-    o	In C# .NET jobs, writing unit tests ensures code quality and prevents regressions.
+# Unit Testing and Assertions:
+    *	The provided test cases validate correctness.
+    *	In C# .NET jobs, writing unit tests ensures code quality and prevents regressions.
 
-7.	# Code Review and Feedback:
-    o	Posting your solution on platforms like Code Review Stack Exchange allows others to review your code.
-    o	Constructive feedback helps improve your coding style and practices.
+# Code Review and Feedback:
+    *	Posting your solution on platforms like Code Review Stack Exchange allows others to review your code.
+    *	Constructive feedback helps improve your coding style and practices.
 
-8.	# Community Learning and Collaboration:
-    o	Katas are popular among developers, fostering a sense of community.
-    o	Collaborating with others, sharing solutions, and learning from different approaches are essential skills.
+# Community Learning and Collaboration:
+    *	Katas are popular among developers, fostering a sense of community.
+    *	Collaborating with others, sharing solutions, and learning from different approaches are essential skills.
 
-9.	# Transferrable Skills:
-    o	The problem-solving mindset developed during Katas translates directly to real-world projects.
-    o	Whether you’re building web applications, APIs, or desktop software, the ability to tackle complex problems remains relevant.
+# Transferrable Skills:
+    *	The problem-solving mindset developed during Katas translates directly to real-world projects.
+    *	Whether you’re building web applications, APIs, or desktop software, the ability to tackle complex problems remains relevant.
  
  # Summay
- In summary, the Harry Potter Code Kata serves as a fun yet educational exercise that prepares you for real-world challenges in C# .NET development. By mastering the Kata, you’ll gain practical skills applicable to various job roles and projects.
+ In summary, the Harry Potter Code Kata serves as a fun yet educational exercise that prepares you for real-world challenges in C# .NET development. By mastering the Kata, you’ll gain practical skills applicable 
+ to various job roles and projects.
 
