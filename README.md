@@ -33,29 +33,29 @@ Your task is to write a piece of code that calculates the price of any conceivab
 
 # Formula
 To calculate the price, follow this formula:
-•	For each set of different books, apply the appropriate discount.
-•	Sum up the prices for all sets.
+-	For each set of different books, apply the appropriate discount.
+-	Sum up the prices for all sets.
 
 For example, the final price for the given basket is:
-3 sets of 5 different books: 3 * (5 * 8 * 0.75) = 141.20 EUR
-2 sets of 4 different books: 2 * (4 * 8 * 0.8) = 51.20 EUR
+- 3 sets of 5 different books: 3 * (5 * 8 * 0.75) = 141.20 EUR
+- 2 sets of 4 different books: 2 * (4 * 8 * 0.8) = 51.20 EUR
 
 
-The Harry Potter Code Kata is a delightful exercise that not only hones your coding skills but also provides valuable insights into real-world problem-solving. Let’s explore its usefulness and how it relates to C# .NET jobs:
+The Harry Potter Code Kata is a delightful exercise that not only hones your coding skills but also provides valuable insights into real-world problem-solving. Let’s explore its usefulness and how it relates to C# .NET jobs
 
-1.	# Object-Oriented Programming (OOP) Practice:
-    o	The Kata encourages you to model the problem using classes and objects (such as Book and Basket).
-    o	You’ll learn about encapsulation, inheritance, and polymorphism by designing classes that represent different aspects of the problem.
+# Object-Oriented Programming (OOP) Practice:
+    *	The Kata encourages you to model the problem using classes and objects (such as Book and Basket).
+    *	You’ll learn about encapsulation, inheritance, and polymorphism by designing classes that represent different aspects of the problem.
 
-2.	# Algorithm Optimization:
-    o	The challenge lies in finding an efficient way to calculate the maximum discount for a given set of books.
-    o	You’ll explore strategies to group books into sets that minimize the total cost.
-    o	This mirrors real-world scenarios where optimizing algorithms is crucial for performance.
+# Algorithm Optimization:
+    *	The challenge lies in finding an efficient way to calculate the maximum discount for a given set of books.
+    *	You’ll explore strategies to group books into sets that minimize the total cost.
+    *	This mirrors real-world scenarios where optimizing algorithms is crucial for performance.
 
-3.	# Test-Driven Development (TDD):
-    o	The provided test cases demonstrate TDD principles.
-    o	You’ll write tests before implementing the solution, ensuring correctness and maintainability.
-    o	TDD is a valuable skill in professional software development.
+# Test-Driven Development (TDD):
+    *	The provided test cases demonstrate TDD principles.
+    *	You’ll write tests before implementing the solution, ensuring correctness and maintainability.
+    *	TDD is a valuable skill in professional software development.
 
 4.	# Problem Decomposition:
     o Breaking down the problem into smaller components (e.g., calculating discounts, managing book sets) is essential.
